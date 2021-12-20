@@ -1,0 +1,11 @@
+--2021-12-06 18:51:23--  http://localhost:8080/test?result=87654321
+Resolving localhost (localhost)... ::1, 127.0.0.1
+Connecting to localhost (localhost)|::1|:8080... connected.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [application/json]
+Saving to: 'test_87654321_anonymous.json'
+
+     0K .....                                                  53,7M=0s
+
+2021-12-06 18:51:23 (53,7 MB/s) - 'test_87654321_anonymous.json' saved [5316]
+

@@ -1,0 +1,11 @@
+--2021-12-06 18:51:25--  http://localhost:8080/tests?email=darya@gmail.com
+Resolving localhost (localhost)... ::1, 127.0.0.1
+Connecting to localhost (localhost)|::1|:8080... connected.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [application/json]
+Saving to: 'tests_DASHA_ADMIN.json'
+
+     0K ........                                               18,7M=0s
+
+2021-12-06 18:51:25 (18,7 MB/s) - 'tests_DASHA_ADMIN.json' saved [8595]
+

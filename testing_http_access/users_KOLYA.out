@@ -1,0 +1,6 @@
+--2021-12-06 18:51:17--  http://localhost:8080/users
+Resolving localhost (localhost)... ::1, 127.0.0.1
+Connecting to localhost (localhost)|::1|:8080... connected.
+HTTP request sent, awaiting response... 403 
+2021-12-06 18:51:17 ERROR 403: (no description).
+

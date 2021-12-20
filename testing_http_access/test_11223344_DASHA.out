@@ -1,0 +1,6 @@
+--2021-12-06 18:51:22--  http://localhost:8080/test?result=11223344
+Resolving localhost (localhost)... ::1, 127.0.0.1
+Connecting to localhost (localhost)|::1|:8080... connected.
+HTTP request sent, awaiting response... 400 
+2021-12-06 18:51:22 ERROR 400: (no description).
+

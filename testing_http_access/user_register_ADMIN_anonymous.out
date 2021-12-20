@@ -1,0 +1,11 @@
+--2021-12-06 18:51:14--  http://localhost:8080/user/register
+Resolving localhost (localhost)... ::1, 127.0.0.1
+Connecting to localhost (localhost)|::1|:8080... connected.
+HTTP request sent, awaiting response... 201 
+Length: 0
+Saving to: 'user_register_ADMIN_anonymous.json'
+
+     0K                                                        0,00 =0s
+
+2021-12-06 18:51:15 (0,00 B/s) - 'user_register_ADMIN_anonymous.json' saved [0/0]
+

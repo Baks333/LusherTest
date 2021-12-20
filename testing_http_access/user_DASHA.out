@@ -1,0 +1,11 @@
+--2021-12-06 18:51:18--  http://localhost:8080/user
+Resolving localhost (localhost)... ::1, 127.0.0.1
+Connecting to localhost (localhost)|::1|:8080... connected.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [application/json]
+Saving to: 'user_DASHA.json'
+
+     0K                                                        1,32M=0s
+
+2021-12-06 18:51:18 (1,32 MB/s) - 'user_DASHA.json' saved [134]
+

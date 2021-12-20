@@ -1,0 +1,49 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.1'
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+	id 'java'
+}
+
+group = 'lushertest'
+version = '0.1.0-RELEASE'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+ext {
+	lombokVersion = '1.18.16'
+
+	junitVersion = '4.13.1'
+}
+
+dependencies {
+	//noinspection AnnotationProcessorOnCompilePath
+	compileOnly "org.projectlombok:lombok:$lombokVersion"
+	annotationProcessor "org.projectlombok:lombok:$lombokVersion"
+	//noinspection AnnotationProcessorOnCompilePath
+	testCompileOnly "org.projectlombok:lombok:$lombokVersion"
+	testAnnotationProcessor "org.projectlombok:lombok:$lombokVersion"
+
+  // https://mvnrepository.com/artifact/com.google.code.findbugs/jsr305
+  implementation 'com.google.code.findbugs:jsr305:3.0.2'
+
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	runtimeOnly 'mysql:mysql-connector-java'
+
+	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+	testImplementation 'org.springframework.security:spring-security-test'
+
+	testImplementation "junit:junit:$junitVersion"
+}
+
+test {
+	useJUnitPlatform()
+}
